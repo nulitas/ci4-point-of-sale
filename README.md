@@ -1,14 +1,31 @@
-# Simple POSU CodeIgniter 4
+# Simple POS CodeIgniter 4
 
-## Installation & updates
+> A lightweight Point of Sale (POS) system built using the CodeIgniter 4 framework.
 
--- Working On --
+## ✨ Features
+- Inventory management
+- Sales tracking and transaction logging
+- Responsive dashboard interface
 
-## Setup
+## 🚀 Getting Started
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+### Prerequisites
+- PHP version 7.4 or higher
+- Composer
+- A local server environment (XAMPP/MAMP/LAMP)
 
-## Server Requirements
+### Setup
+1. Copy the `env` file to `.env` and tailor it for your app, specifically configuring the `baseURL` and database settings:
+   ```sh
+   cp env .env
+   ```
+2. Serve the application:
+   ```sh
+   php spark serve
+   ```
 
-PHP version 7.4 or higher is required.
+## 🛠️ Built With
+- **CodeIgniter 4** - PHP Framework
+
+## 📝 License
+Distributed under the MIT License.
